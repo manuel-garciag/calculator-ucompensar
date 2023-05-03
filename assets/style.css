@@ -21,9 +21,11 @@ main {
 #inputs {
   position: relative;
   background-color: rgba(0, 0, 0, 0.9);
-  width: 100%;
+  width: calc(100% - 35px);
   height: 20vh;
   border-radius: 15px;
+  padding: 10px;
+  padding-left: 30px;
 }
 
 #inputs .btn_clean {
